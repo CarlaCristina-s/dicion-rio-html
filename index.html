@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="style.css">
+  <title>Principais TAG's</title>
+</head>
+
+<body>
+  <header>
+    <nav id="return">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#intro">Sobre</a></li>
+        <li><a href="#tag">TAG's</a></li>
+        <li><a href="#form">Formulário</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1 id="intro">Dicionário HTML</h1>
+      <hr>
+      <p>Tags são estruturas de linguagem de marcação contendo instruções. São utilizadas para informar ao navegador
+        que
+        tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre
+        outros.</p>
+      <h2 id="tag">Principais TAG's</h2>
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        <h3>Tag's h1 - h6</h3>
+        <p>As tags h1 ao h6 são usadas para definir títulos HTML, sendo h1 o principal nível de título e h6 o nível mais
+          baixo.</p>
+        <img src="image/carbon (22).png" alt="">
+        <h3>Tag p</h3>
+        <p>O elemento "p" representa um parágrafo.</p>
+        <img src="image/carbon (23).png" alt="">
+        <h3>Tag br</h3>
+        <p>A tag "br" representa quebra de linha.</p>
+        <img src="image/carbon (24).png" alt="">
+        <h3>Tag ul</h3>
+        <p>A tag "ul" representa uma lista não ordenada.</p>
+        <img src="image/carbon (26).png" alt="">
+        <h3>Tag ol</h3>
+        <p>A tag "ol" representa uma lista ordenada.</p>
+        <img src="image/carbon (25).png" alt="">
+        <h3>Tag li</h3>
+        <p>A Tag "li" representa os elementos dessa lista.</p>
+        <img src="image/carbon (26).png" alt="">
+        <h3>Tag body</h3>
+        <p>Body representa todo conteúdo do site.</p>
+        <img src="image/carbon (8).png" alt="">
+        <h3>Tag main</h3>
+        <p>Main define o conteúdo principal.</p>
+        <img src="image/carbon (9).png" alt="">
+        <h3>Tag header</h3>
+        <p>Header representa conteúdo introdutório. Ex.: cabeçalho, navegação do site.</p>
+        <img src="image/carbon (10).png" alt="">
+        <h3>Tag div</h3>
+        <p>Uma "div" representa uma divisão dentro do documento HTML.</p>
+        <img src="image/carbon (11).png" alt="">
+        <h3>Tag span</h3>
+        <p>Span é um contêiner embutido usado para marcar uma parte de um texto ou uma parte de um documento.</p>
+        <img src="image/carbon (15).png" alt="">
+      </div>
+      <div class="box2">
+        <h3>Tag form</h3>
+        <p>"Form" é usada para criar um formulário HTML para entrada do usuário.</p>
+        <img src="image/carbon (12).png" alt="">
+        <h3>Tag fieldset</h3>
+        <p>A tag "fieldset" é usada para agrupar elementos relacionados em um formulário, desenhando uma caixa ao redor.
+        </p>
+        <img src="image/carbon (13).png" alt="">
+        <h3>Tag legend</h3>
+        <p>Legend define uma legenda para o elemento "fieldset".</p>
+        <img src="image/carbon (14).png" alt="">
+        <h3>Tag label</h3>
+        <p>Label define um rótulo para vários elementos.</p>
+        <img src="image/carbon (16).png" alt="">
+        <h3>Tag input</h3>
+        <p>"Input" especifica um campo de entrada onde o usuário pode inserir dados.</p>
+        <img src="image/carbon (17).png" alt="">
+        <h3>Tag select</h3>
+        <p>"Select" elemento é usado para criar uma lista suspensa.</p>
+        <img src="image/carbon (18).png" alt="">
+        <h3>Tag option</h3>
+        <p>"Option" define uma opção em uma lista de seleção.</p>
+        <img src="image/carbon (19).png" alt="">
+        <h3>Tag textarea</h3>
+        <p>"Textarea" tag que define um controle de entrada de texto multilinha.</p>
+        <img src="image/carbon (20).png" alt="">
+        <h3>Tag footer</h3>
+        <p>Footer: define um rodapé para um documento ou seção.</p>
+        <img src="image/carbon (21).png" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="box3">
+      <h3>Tag figure</h3>
+      <p>A tag "figure" especifica conteúdo independente, como fotos e diagramas. Também podemos utilizar a tag "img"
+        para incorporar uma imagem em uma página HTML</p>
+      <div>
+        <figure>
+          <img src="image/carbon (27).png" alt="">
+          <img src="image/carbon (28).png" alt="">
+        </figure>
+      </div>
+      <div class="box4">
+        <h2>Exemplo de formulário</h2>
+        <form action="" method="post">
+          <fieldset>
+            <legend id="form">Dados Pessoais:</legend>
+            <ul>
+              <li>
+                <span class="campo"><label for="nome">Nome:</label></span>
+                <input type="text" id="nome" name="nome">
+              </li>
+              <li>
+                <span class="campo"><label for="email">E-mail:</label></span>
+                <input type="text" id="email" name="email">
+              </li>
+              <li>
+                <span class="campo"><label for="telefone">Telefone:</label></span>
+                <input type="text" id="telefone" name="telefone">
+              </li>
+              <li>
+                <span class="campo"><label for="estado">Estado:</label></span>
+                <select id="estado" name="estado">
+                  <option value="Não selecionado">Escolha seu Estado</option>
+                  <option value="Paraná">Paraná</option>
+                  <option value="Santa Catarina">Santa Catarina</option>
+                  <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </li>
+              <li>
+                <span class="campo"><label for="mensagem">Mensagem:</label></span>
+                <textarea id="mensagem" name="mensagem"></textarea>
+              </li>
+              <li>
+                <input type="submit" value="Enviar">
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </div>
+  </main>
+  <footer>
+    <p><a href="#return">Voltar ao topo</a></p>
+  </footer>
+</body>
+
+</html>
